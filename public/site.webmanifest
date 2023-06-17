@@ -1,0 +1,21 @@
+{
+  "name": "Alan Hadyk",
+  "short_name": "Alan Hadyk",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#22272a",
+  "background_color": "#22272a",
+  "start_url": "https://alanhadyk.dev",
+  "display": "standalone",
+  "orientation": "portrait"
+}

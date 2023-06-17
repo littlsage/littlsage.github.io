@@ -1,0 +1,65 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/recommended",
+    "plugin:import/typescript",
+    "plugin:prettier/recommended"
+  ],
+  "overrides": [
+    {
+      "files": ["src/app/**/*.tsx", "src/pages/**/*.ts", "jest.config.ts", "playwright.config.ts", "tailwind.config.ts"], 
+      "rules": {
+        "import/no-default-export": "off"
+      }
+    }
+  ],
+  "plugins": [
+    "@typescript-eslint",
+    "typescript-sort-keys",
+    "import",
+    "prettier"
+  ],
+  "rules": {
+    "indent": [0],
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"],
+    "comma-dangle": [0],
+    "sort-keys": [
+      "error",
+      "asc",
+      {
+        "caseSensitive": true,
+        "natural": true,
+        "minKeys": 2
+      }
+    ],
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": [
+      "error",
+      { "functions": false, "typedefs": false }
+    ],
+    "typescript-sort-keys/interface": [
+      "error",
+      "asc",
+      { "caseSensitive": true, "natural": true }
+    ],
+    "typescript-sort-keys/string-enum": 2,
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": ["error"],
+    "react/prop-types": [0],
+    "no-control-regex": 0,
+    "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }],
+    "import/no-default-export": 2,
+    "import/no-dynamic-require": 2,
+    "import/no-self-import": 2,
+    "import/no-cycle": 2,
+    "import/first": 2,
+    "import/exports-last": 2,
+    "import/no-unresolved": 0
+  }
+}

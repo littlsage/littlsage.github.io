@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .flex-row-wrap {
+    @apply flex-row flex-wrap;
+  }
+  .flex-row-reverse-wrap {
+    @apply flex-row-reverse flex-wrap;
+  }
+  .flex-col-wrap {
+    @apply flex-col flex-wrap;
+  }
+  .flex-col-reverse-wrap {
+    @apply flex-col-reverse flex-wrap;
+  }
+  .flex-row-wrap-reverse {
+    @apply flex-row flex-wrap-reverse;
+  }
+  .flex-row-reverse-wrap-reverse {
+    @apply flex-row-reverse flex-wrap-reverse;
+  }
+  .flex-col-wrap-reverse {
+    @apply flex-col flex-wrap-reverse;
+  }
+  .flex-col-reverse-wrap-reverse {
+    @apply flex-col-reverse flex-wrap-reverse;
+  }
+  .flex-row-nowrap {
+    @apply flex-row flex-nowrap;
+  }
+  .flex-row-reverse-nowrap {
+    @apply flex-row-reverse flex-nowrap;
+  }
+  .flex-col-nowrap {
+    @apply flex-col flex-nowrap;
+  }
+  .flex-col-reverse-nowrap {
+    @apply flex-col-reverse flex-nowrap;
+  }
+}
+
+@layer utilities {
+  .page-break-inside-avoid {
+    page-break-inside: avoid;
+  }  
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button, input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Anonymous Pro", monospace, sans-serif;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+*, 
+*:after, 
+*:before, 
+*::before, 
+*::after {
+  box-sizing: border-box;
+  outline: 0;
+  scrollbar-color: #006869 transparent;
+  scrollbar-width: thin;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  font-smooth: always;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #006869;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #1e2224;
+  color: #78b0b5;
+  line-height: 1;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+::selection { 
+  background: #bcd8db; 
+  color: #1e2224; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Exan", monospace, sans-serif;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+iframe {
+  height: 100vh;
+  width: 100vw;
+}
