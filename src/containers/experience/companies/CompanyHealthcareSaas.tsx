@@ -25,33 +25,31 @@ const CompanyHealthcareSaas: React.FC<
 
   return (
     <Company
-      date="May 2022 to June 2022"
+      date="August 2022 to December 2022"
       format={format}
       iconsWithLabels={icons}
-      name="Healthcare SaaS"
+      name="Cave Consulting"
+      link="https://www.caveconsulting.com/"
       responsibilities={[
-        <span key="Developed">
-          Developed captivating user interfaces for a healthcare application,
-          resulting in a <strong>15% increase in user engagement</strong> and a{" "}
-          <strong>10% improvement in user satisfaction</strong>.
+        <span key="Integrated">
+          Integrated <strong>Redux and MobX</strong> on a number of React-based
+          front-end projects and <strong>Vue, Vuex, and Vuetify</strong> with a{" "}
+          <strong>Laravel</strong> back-end.
         </span>,
-        <span key="Improved">
-          <strong>Improved loading speed and performance by 20%</strong> through
-          the implementation of route lazy-loading and modularization of code
-          into reusable components.
+        <span key="Implemented">
+          Implemented a<strong> GraphQL-and-Apollo server</strong> for a
+          React-and-Vue front-end data query.
         </span>,
-        <span key="Refined">
-          Refined application architecture,{" "}
-          <strong>reducing maintenance effort by 30%</strong> and increasing
-          code readability and organization.
+        <span key="Created">
+          Created a new customized chart library using{" "}
+          <strong>D3.js and Plotly.js</strong>.
         </span>,
-        <span key="Utilized">
-          Utilized GraphQL for seamless communication with backend services,{" "}
-          <strong>reducing data fetching time by 25%</strong> and enhancing the
-          user experience.
+        <span key="Embedded">
+          Embedded a <strong>Google tag manager and Google Analytics</strong>{" "}
+          for the website conversion tracking and the user event tracking.
         </span>,
       ]}
-      title="Senior React Developer"
+      title="Full-Stack Engineer"
       variant={variant}
     />
   );

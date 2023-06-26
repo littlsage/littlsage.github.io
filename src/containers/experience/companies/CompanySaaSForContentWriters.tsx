@@ -27,28 +27,34 @@ const CompanySaaSForContentWriters: React.FC<
 
   return (
     <Company
-      date="September 2022 - January 2023"
+      date="December 2022 - April 2023"
       format={format}
       iconsWithLabels={icons}
-      name="SaaS for Content writers"
+      name="Canibuild"
+      link="https://canibuild.com"
       responsibilities={[
-        <span key="Engineered">
-          Engineered a TypeScript-based React single-page application using
-          Vite, <strong>enhancing efficiency by 20%</strong> and{" "}
-          <strong>decreasing development time by 25%</strong>.
+        <span key="Led">
+          Led the development of web applications and the implementation CI/CD
+          throughout the organization to{" "}
+          <strong>reduce the delivery time by 80%</strong>.
         </span>,
-        <span key="Designed">
-          Designed a scalable app architecture utilizing design patterns like
-          Dumb & Smart Components and Atomic Design, incorporating React Query
-          and Windi CSS to <strong>reduce UI design time by 30%</strong>.
+        <span key="Built">
+          <strong>Gathered and validated 40+ requirements</strong> as part of
+          the collaboration of a high-profile progressive web app that helped
+          develop clear, unambiguous technical requirements and establish a
+          consistent feedback loop.
         </span>,
-        <span key="Employed">
-          Employed React Query and Axios for robust communication with backend
-          systems, <strong>optimizing resource management</strong> and
-          streamlining data fetching.
+        <span key="Analyzed">
+          Analyzed a<strong> Python Django-based original website</strong> and
+          found ways to improve its usability.
+        </span>,
+        <span key="Developed">
+          Developed code that deals with large data sets by rendering component
+          on UI and{" "}
+          <strong>optimizing calls to minimize HTTP request by 75%</strong>.
         </span>,
       ]}
-      title="Front-End Architect"
+      title="Lead Full-Stack Engineer"
       variant={variant}
     />
   );

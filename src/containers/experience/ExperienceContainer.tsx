@@ -74,7 +74,7 @@ const ExperienceContainer: React.FC<IExperienceContainerProps> = ({
 }) => (
   <Section
     id="experience"
-    title="Experience"
+    title="Professional Experience"
     size={
       format === ExperienceContainerFormat.Web
         ? SectionSize.Large

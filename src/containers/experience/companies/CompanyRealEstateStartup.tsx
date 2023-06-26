@@ -45,30 +45,33 @@ const CompanyRealEstateStartup: React.FC<
       date="December 2021 to March 2022"
       format={format}
       iconsWithLabels={icons}
-      name="Real Estate Startup"
+      name="Bitwave"
+      link="https://bitwave.io"
       responsibilities={[
-        <span key="Developed">
-          Developed front-end architecture of a real estate web app, leading to
-          a <strong>35% increase in user acquisition</strong> and{" "}
-          <strong>20% improvement in customer retention</strong>.
+        <span key="Handled">
+          Handled the web 3.0 integration for different{" "}
+          <strong>
+            wallet connections and contract integrations for multi-chain support
+          </strong>
+          , including Ethereum, Binance, Polygon, etc.
         </span>,
-        <span key="Ensured">
-          Ensured adherence to coding standards and best practices, resulting in
-          a <strong>50% reduction in code-related issues</strong> during QA
-          testing.
+        <span key="Architected">
+          Architected feature-rich gaming, rewards, and a pack NFT project for a
+          major sports league.
         </span>,
-        <span key="Optimized">
-          Optimized project timelines,{" "}
-          <strong>accelerating application development by 30%</strong> and
-          enabling timely delivery of key features.
+        <span key="Implemented">
+          Implemented <strong>large gas optimizations</strong> in underlying DAO
+          governance,
+          <strong>stablecoin yield generation, liquidity arbitrage</strong>{" "}
+          functionalities, and integration of new LP pools for the regular coin
+          peg maintenance, such as curve finance and Liquidity Protocol.
         </span>,
-        <span key="Introduced">
-          Introduced GraphQL as a communicative means with the backend system,
-          <strong> boosting functional asset delivery by 40%</strong> and
-          improving overall system performance.
+        <span key="Embedded">
+          <strong>Created a crowdfunding Protocol</strong> in Solidity launched
+          on Ethereum in 2022.
         </span>,
       ]}
-      title="Front-End Architect"
+      title="Blockchain Engineer"
       variant={variant}
     />
   );
