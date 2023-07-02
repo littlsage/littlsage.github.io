@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
-  <defs/>
-  <g>
-    <g>
-      <path fill="#00ff93" d="M0 0l100 49v100L0 100V0zM201 0l99 49-99 51V0z"/>
-      <path fill="#00b368" d="M201 0L100 49v100l101-49V0zM300 49l-99 51v100l99-51V49z" />
-    </g>
-  </g>
-</svg>
