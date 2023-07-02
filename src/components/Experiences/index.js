@@ -69,27 +69,27 @@ const Experiences = () => {
         </div>
         <div className="projects">
           <div className="box">
-            <img src={PortfolioAtheneum} />
+            <img alt="" src={PortfolioAtheneum} />
             <span>Atheneum Enterprise Platform</span>
           </div>
           <div className="box">
-            <img src={PortfolioCoverDash} />
+            <img alt="" src={PortfolioCoverDash} />
             <span>Coverdash</span>
           </div>
           <div className="box">
-            <img src={PortfolioGoCariq} />
+            <img alt="" src={PortfolioGoCariq} />
             <span>CarIQ</span>
           </div>
           <div className="box">
-            <img src={PortfolioHolidu} />
+            <img alt="" src={PortfolioHolidu} />
             <span>Holidu</span>
           </div>
           <div className="box">
-            <img src={PortfolioPantryShop} />
+            <img alt="" src={PortfolioPantryShop} />
             <span>PantryShop</span>
           </div>
           <div className="box">
-            <img src={PortfolioTsgGlobal} />
+            <img alt="" src={PortfolioTsgGlobal} />
             <span>TSG Global Platform</span>
           </div>
         </div>
